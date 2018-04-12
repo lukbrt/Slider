@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Gugi', cursive;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+h1
+{
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+#slider
+{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+    text-align: center;
+}
+
+#slider input[type="button"]
+{
+    font-size: 96px;
+    color: #FFC508;
+    text-shadow: -1px 4px 0 #5409C2;
+    background: transparent;
+    border: none;
+    outline:none;
+}
+
+#slider input[type="button"]:hover
+{
+    color: #E325ED;
+}
+
+/* #slider input[type="button"]#L
+{
+    flex-grow: 1;
+} */
+
+/* #slider input[type="button"]#R
+{
+    flex-grow: 1;
+} */
+
+/* #slider h1#welcome
+{
+    line-height: 1.6em;
+    width: 40%;
+    flex-grow: 2;
+} */
